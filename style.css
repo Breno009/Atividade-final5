@@ -1,0 +1,151 @@
+#Cabeçalho{
+    background-color: rgb(51, 29, 29);
+    color: white;
+    text-align: center;
+    padding: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#Google2{
+    position: absolute; 
+	left: 76px; /* posiciona a 90px para a esquerda */ 
+	top: 40px; /* posiciona a 70px para baixo */
+    transform: rotate(45deg)
+}
+#amzon{
+    position: absolute; 
+	left: 40px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+    transform: rotate(45deg)
+}
+#Apple4{
+    position: absolute; 
+	left: 1px; /* posiciona a 90px para a esquerda */ 
+	top: 50px; /* posiciona a 70px para baixo */
+    transform: rotate(45deg)
+}
+.Google{
+    background-color: #f7f7f7;
+    padding: 8px;
+    margin: 90px;
+    text-align: center;
+    inline-size: 230px;
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    transition: width 1s, height 2s;
+}
+.Google:hover{
+    width: 270px;
+    height: 270px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+.Amazon{
+    background-color: black;
+    padding: 8px;
+    margin: 90px;
+    text-align: center;
+    inline-size: 230px;
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    color: white;
+    transition: width 1s, height 2s;
+}
+.Amazon:hover{
+    width: 270px;
+    height: 270px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+.Apple{
+    background-color: rgb(139, 59, 139);
+    padding: 8px;
+    margin: 90px;
+    text-align: center;
+    inline-size: 230px;
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    color: white;
+    transition: width 1s, height 2s;
+}
+.Apple:hover{
+    width: 270px;
+    height: 270px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+.Steam{
+    background-color: rgb(8, 8, 75);
+    padding: 8px;
+    margin:90px;
+    text-align: center;
+    inline-size: 230px;
+    writing-mode: horizontal-tb;
+    display: inline-block;
+    color: white;
+    transition: width 1s, height 2s;
+}
+.Steam:hover{
+    width: 270px;
+    height: 270px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+#imagens{
+    background-color: rgb(197, 193, 193);
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#title{
+    font-size: 20px;
+    font-family: cursive;
+}
+.animar{
+    animation-name: slide;
+    animation-duration: 2s;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.animar3{
+    animation-name: slide;
+    animation-duration: 8s;
+}
+.animar2{
+    animation-name: slide;
+    animation-duration: 5s;
+}
+@keyframes slide{
+    from{ opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#Rodapé{
+    background-color: rgb(51, 29, 29);
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: 12px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#botões{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#button{
+    background-color: black;
+    color: white;
+}
+#button:hover {
+    background-color: white;
+    color: black;
+}
